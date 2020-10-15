@@ -53,7 +53,7 @@ console.log(packageSprite.position.x);
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("yellow");
   rect(ground.position.x,ground.position.y,width,10);
 
  // ellipse(packageBody.position.x,packageBody.position.y,20,40);
